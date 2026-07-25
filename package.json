@@ -1,0 +1,38 @@
+{
+  "name": "human-id-dataset",
+  "version": "0.0.0",
+  "displayName": "Human ID Dataset",
+  "homepage": "https://tenedev.github.io/human-id-dataset",
+  "description": "Data collection for generating human-readable IDs",
+  "keywords":[
+  "dictionary",
+  "random",
+  "vocabulary",
+  "wordlist",
+  "datasets",
+  "id-generator",
+  "human-id"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tenedev/human-id-dataset.git"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/tenedev"
+  },
+  "license": "Apache-2.0",
+  "author": "Sriman",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "data",
+    "metadata.json"
+  ],
+  "exports": {
+    "./package.json": "./package.json",
+    "./metadata.json": "./metadata.json",
+    "./data/*": "./data/*"
+  }
+}

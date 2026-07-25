@@ -1,18 +1,18 @@
 {
   "name": "human-id-dataset",
-  "version": "0.0.0",
   "displayName": "Human ID Dataset",
-  "homepage": "https://tenedev.github.io/human-id-dataset",
+  "version": "0.0.0",
   "description": "Data collection for generating human-readable IDs",
-  "keywords":[
-  "dictionary",
-  "random",
-  "vocabulary",
-  "wordlist",
-  "datasets",
-  "id-generator",
-  "human-id"
+  "keywords": [
+    "dictionary",
+    "random",
+    "vocabulary",
+    "wordlist",
+    "datasets",
+    "id-generator",
+    "human-id"
   ],
+  "homepage": "https://tenedev.github.io/human-id-dataset",
   "repository": {
     "type": "git",
     "url": "https://github.com/tenedev/human-id-dataset.git"

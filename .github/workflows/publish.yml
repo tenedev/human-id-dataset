@@ -86,7 +86,6 @@ jobs:
         run: |
           PREV_TAG=$(git describe --tags --abbrev=0 HEAD^ 2>/dev/null || true)
           REPO_URL="https://github.com/${{ github.repository }}"
-          
           {
             echo "body<<EOF"
             echo "## Changes"

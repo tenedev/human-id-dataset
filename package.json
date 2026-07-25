@@ -1,7 +1,7 @@
 {
   "name": "human-id-dataset",
   "displayName": "Human ID Dataset",
-  "version": "0.0.0",
+  "version": "0.1.0-beta.0",
   "description": "Data collection for generating human-readable IDs",
   "keywords": [
     "dictionary",

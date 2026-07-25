@@ -1,0 +1,19 @@
+name: autofix.ci
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  autofix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - run: npm install --no-save prettier @tenedev/prettier-config
+      - run: npx prettier . --write --config=node_modules/@tenedev/prettier-config/index.js
+      - uses: autofix-ci/action@v1
